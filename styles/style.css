@@ -46,6 +46,21 @@
     color: #FEA301;
     font-weight: 700;
 }
+.nav-link-about{
+  color: #01ACFD;
+  text-decoration: none;
+  font-weight: 700;
+}
+.nav-link-facilities{
+  color: #05D4DF;
+  text-decoration: none;
+  font-weight: 700;
+}
+.nav-link-admission{
+  color: #5D58EF;
+  text-decoration: none;
+  font-weight: 700;
+}
 .nav-ham-btn{
   display: none;
 }
@@ -393,6 +408,15 @@ border-radius: 10px;
     }
     .banner-img{
         margin-left: 5px;
+        width: 350px;
+        height: 100%;
+        padding-right: 20px;
+    }
+    .standard-title{
+      font-size: 35px;
+    }
+    .kinder-card elementary-card middle-card {
+      width: 400px;
     }
     .arrow{
         display: flex;
@@ -440,6 +464,7 @@ border-radius: 10px;
         letter-spacing: 0%;
         text-align: left;
       }
+
       
     .nav-ham-btn {
         display: block;
@@ -447,5 +472,9 @@ border-radius: 10px;
     }
     .contact-btn{
         display: none;
+    }
+    .footer-container{
+      column-gap: 20px;
+      margin: auto;
     }
   }
