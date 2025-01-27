@@ -87,8 +87,11 @@
 .heading{
     font-weight: 700;
     font-size: 56px;
+    padding-bottom: 25px;
 }
-
+.banner p{
+  padding-bottom: 30px;
+}
 .empowering{
     color: #FEA301;
 
